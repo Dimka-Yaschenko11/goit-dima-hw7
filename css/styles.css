@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.wrap {
+  display: inline-block;
+  margin: 0 70px 70px 0;
+  background: rgba(228, 225, 228, 0.5);
+}
+
+div {
+  width: 190px;
+  height: 100px;
+  line-height: 100px;
+  margin: 0 auto;
+}
+
+.one,
+.four,
+.seven,
+.ten {
+  transition: all 400ms linear;
+  background: rgba(135, 86, 120, 0.4);
+}
+
+.three,
+.six,
+.nine {
+  transition: all 400ms linear;
+  background: rgba(255, 153, 0, 0.4);
+}
+
+.two,
+.five,
+.eight {
+  transition: all 400ms linear;
+  background: rgba(0, 228, 246, 0.4);
+}
+
+/* home work */
+
+.one:hover {
+  transform: translateX(60px);
+}
+
+.two:hover {
+  transform: translateY(60px);
+}
+
+.three:hover {
+transform: translate(-40px, 40px);
+}
+
+.four:hover {
+ transform: scaleX(-0.5);
+}
+
+.five:hover {
+ transform: scaleY(0.8);
+}
+
+.six:hover {
+transform: scale(0.8, 0.5);
+}
+
+.seven:hover {
+transform: rotate(300deg);
+}
+
+.eight:hover {
+transform: skewX(28deg);
+}
+
+.nine:hover {
+    transform: skewY(-30deg);
+}
+
+.ten:hover {
+  transform: skew(-10deg, 10deg);
+ }
